@@ -1,6 +1,14 @@
+---
+layout: default
+title: "Week 4 Blog: Interview Success"
+hide_navigation: true
+---
+
 # Week 4 Blog: Interview Success - Lessons from 4 Weeks of Intense Preparation
 
 *Day 28 - Final preparation complete*
+
+<a href="{{ '/' | relative_url }}" class="btn-back">← Back to Home</a>
 
 ## The Journey: From Qualys Expert to Multi-Tool Vulnerability Management Pro
 
@@ -133,3 +141,8 @@ I'm ready. Four weeks of preparation have transformed me from a Qualys expert to
 
 ---
 *Follow my journey: From preparation to new role success.*
+
+### Related Posts
+- [Week 1: CVSS Mastery](week1-cvss-mastery)
+- [Week 2: Tool Comparison](week2-tool-comparison)
+- [Week 3: Executive Communication](week3-executive-communication)

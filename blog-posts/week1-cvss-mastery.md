@@ -1,6 +1,14 @@
+---
+layout: default
+title: "Week 1 Blog: Mastering CVSS 3.1"
+hide_navigation: true
+---
+
 # Week 1 Blog: Mastering CVSS 3.1 - A Vulnerability Analyst's Deep Dive
 
 *Day 3 of my interview preparation journey*
+
+<a href="{{ '/' | relative_url }}" class="btn-back">← Back to Home</a>
 
 ## Why CVSS Matters More Than Ever
 
@@ -58,3 +66,8 @@ Diving into Tenable Nessus fundamentals and comparing scanning methodologies.
 
 ---
 *Follow my interview prep journey as I expand from Qualys expertise to multi-tool vulnerability management mastery.*
+
+### Related Posts
+- [Week 2: Tool Comparison Analysis](week2-tool-comparison)
+- [Week 3: Executive Communication](week3-executive-communication)
+- [Week 4: Interview Success](week4-interview-success)

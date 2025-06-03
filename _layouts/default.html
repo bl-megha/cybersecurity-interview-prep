@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <style>
+      .page-header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      }
+      .main-content h1, .main-content h2, .main-content h3 {
+        color: #333;
+      }
+      .navigation {
+        background: #f8f9fa;
+        padding: 1rem;
+        margin: 2rem 0;
+        border-radius: 5px;
+        border-left: 4px solid #667eea;
+      }
+      .navigation h3 {
+        margin-top: 0;
+        color: #667eea;
+      }
+      .navigation ul {
+        margin: 0;
+        padding-left: 1.5rem;
+      }
+      .navigation li {
+        margin: 0.5rem 0;
+      }
+      .progress-table {
+        margin: 2rem 0;
+      }
+      .progress-table table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .progress-table th, .progress-table td {
+        padding: 0.75rem;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      .progress-table th {
+        background-color: #f8f9fa;
+        font-weight: 600;
+      }
+      .btn-back {
+        display: inline-block;
+        margin: 1rem 0;
+        padding: 0.5rem 1rem;
+        background-color: #667eea;
+        color: white;
+        text-decoration: none;
+        border-radius: 3px;
+        font-size: 0.9rem;
+      }
+      .btn-back:hover {
+        background-color: #5a6fd8;
+        color: white;
+        text-decoration: none;
+      }
+      .highlight-box {
+        background: #e8f4fd;
+        border-left: 4px solid #0066cc;
+        padding: 1rem;
+        margin: 1rem 0;
+      }
+      .highlight-box h4 {
+        margin-top: 0;
+        color: #0066cc;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+    </section>
+
+    <section class="main-content">
+      {% unless page.hide_navigation %}
+      <div class="navigation">
+        <h3>🧭 Quick Navigation</h3>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div>
+            <h4>📚 Study Materials</h4>
+            <ul>
+              <li><a href="{{ '/docs/01-resume-analysis' | relative_url }}">Resume Analysis</a></li>
+              <li><a href="{{ '/docs/02-study-plan-weeks-1-2' | relative_url }}">Study Plan (Weeks 1-2)</a></li>
+              <li><a href="{{ '/docs/03-advanced-skills-weeks-3-4' | relative_url }}">Advanced Skills (Weeks 3-4)</a></li>
+              <li><a href="{{ '/docs/04-interview-questions-resources' | relative_url }}">Interview Q&A</a></li>
+              <li><a href="{{ '/docs/05-detailed-interview-answers' | relative_url }}">Detailed Answers</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>📝 Study Blog</h4>
+            <ul>
+              <li><a href="{{ '/blog-posts/week1-cvss-mastery' | relative_url }}">Week 1: CVSS Mastery</a></li>
+              <li><a href="{{ '/blog-posts/week2-tool-comparison' | relative_url }}">Week 2: Tool Comparison</a></li>
+              <li><a href="{{ '/blog-posts/week3-executive-communication' | relative_url }}">Week 3: Executive Communication</a></li>
+              <li><a href="{{ '/blog-posts/week4-interview-success' | relative_url }}">Week 4: Interview Success</a></li>
+            </ul>
+          </div>
+        </div>
+        {% unless page.url == '/' %}
+        <a href="{{ '/' | relative_url }}" class="btn-back">← Back to Home</a>
+        {% endunless %}
+      </div>
+      {% endunless %}
+
+      {{ content }}
+
+      <footer class="site-footer">
+        <span class="site-footer-owner">
+          This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.
+        </span>
+        <span class="site-footer-credits">
+          Interview preparation materials for cybersecurity professionals.
+        </span>
+      </footer>
+    </section>
+  </body>
+</html>

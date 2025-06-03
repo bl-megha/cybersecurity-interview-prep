@@ -1,6 +1,14 @@
+---
+layout: default
+title: "Week 2 Blog: Tool Comparison Analysis"
+hide_navigation: true
+---
+
 # Week 2 Blog: Qualys vs Tenable vs Rapid7 - A Hands-On Comparison
 
 *Day 10 of interview preparation*
+
+<a href="{{ '/' | relative_url }}" class="btn-back">← Back to Home</a>
 
 ## Setting Up the Battle: Three-Way Tool Comparison
 
@@ -20,12 +28,16 @@ After spending 3+ years with Qualys VMDR, I'm expanding my toolkit. Here's my ha
 
 ## Performance Comparison
 
+<div class="progress-table">
+
 | Metric | Qualys VMDR | Tenable.io | Rapid7 InsightVM |
 |--------|-------------|------------|------------------|
 | Scan Time | 45 minutes | 38 minutes | 42 minutes |
 | Vulnerabilities Found | 1,247 | 1,389 | 1,298 |
 | False Positives | 12% | 8% | 15% |
 | Report Generation | 3 minutes | 5 minutes | 2 minutes |
+
+</div>
 
 ## Detailed Analysis
 
@@ -98,3 +110,8 @@ Exploring automation capabilities and API integrations across all three platform
 
 ---
 *Building multi-tool expertise one comparison at a time.*
+
+### Related Posts
+- [Week 1: CVSS Mastery](week1-cvss-mastery)
+- [Week 3: Executive Communication](week3-executive-communication)
+- [Week 4: Interview Success](week4-interview-success)

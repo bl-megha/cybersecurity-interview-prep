@@ -1,0 +1,20 @@
+title: Cybersecurity Interview Preparation
+description: Comprehensive 4-week preparation plan for vulnerability management security roles
+show_downloads: false
+google_analytics:
+
+theme: jekyll-theme-cayman
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock

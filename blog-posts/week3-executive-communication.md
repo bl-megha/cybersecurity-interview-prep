@@ -1,6 +1,14 @@
+---
+layout: default
+title: "Week 3 Blog: Executive Communication"
+hide_navigation: true
+---
+
 # Week 3 Blog: Translating Vulns to Business Risk - Executive Communication Strategies
 
 *Day 18 of interview preparation*
+
+<a href="{{ '/' | relative_url }}" class="btn-back">← Back to Home</a>
 
 ## The Challenge: Speaking Executive Language
 
@@ -34,35 +42,46 @@ After years of technical vulnerability reports, I'm focusing on executive commun
 
 ## Real Example: Log4Shell Executive Brief
 
-**Subject:** Critical Security Action Required - Payment System Protection
+<div class="highlight-box">
+<h4>Critical Security Action Required - Payment System Protection</h4>
 
-**The Situation:**
+<strong>The Situation:</strong><br>
 A critical security vulnerability affects our payment processing systems. Attackers are actively exploiting this weakness across the internet.
 
-**Business Impact:**
-- Customer payment data at risk
-- Potential system shutdown
-- Regulatory fines up to $5M
-- Reputation damage
+<strong>Business Impact:</strong>
+<ul>
+<li>Customer payment data at risk</li>
+<li>Potential system shutdown</li>
+<li>Regulatory fines up to $5M</li>
+<li>Reputation damage</li>
+</ul>
 
-**Immediate Actions Taken:**
-- Isolated affected systems
-- Implemented temporary protections
-- Coordinated with payment processors
+<strong>Immediate Actions Taken:</strong>
+<ul>
+<li>Isolated affected systems</li>
+<li>Implemented temporary protections</li>
+<li>Coordinated with payment processors</li>
+</ul>
 
-**Required Decision:**
+<strong>Required Decision:</strong><br>
 We need 4-hour maintenance window this weekend to permanently fix the issue. Cost: $75K in overtime and lost transactions vs. potential $5M+ in damages.
 
-**Recommendation:** Approve emergency maintenance window.
+<strong>Recommendation:</strong> Approve emergency maintenance window.
+</div>
 
 ## Visual Communication Tools
 
 ### Risk Heat Map
+
+<div class="progress-table">
+
 | Impact | High | Medium | Low |
 |--------|------|--------|-----|
 | **High Probability** | 🔴 Critical | 🟡 High | 🟢 Medium |
 | **Medium Probability** | 🟡 High | 🟢 Medium | 🟢 Low |
 | **Low Probability** | 🟢 Medium | 🟢 Low | 🟢 Low |
+
+</div>
 
 ### ROI Calculator
 - **Security Investment:** $200K annual scanning tools
@@ -106,3 +125,8 @@ Building process improvement portfolio with quantifiable ROI examples.
 
 ---
 *Mastering the art of security storytelling for business impact.*
+
+### Related Posts
+- [Week 1: CVSS Mastery](week1-cvss-mastery)
+- [Week 2: Tool Comparison](week2-tool-comparison)
+- [Week 4: Interview Success](week4-interview-success)
