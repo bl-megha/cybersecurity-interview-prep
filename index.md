@@ -20,6 +20,10 @@ This website contains a detailed 4-week preparation plan for cybersecurity vulne
 - [Interview Questions & Resources](docs/04-interview-questions-resources)
 - [Detailed Interview Answers](docs/05-detailed-interview-answers)
 
+### 🆓 **FREE Resources & Practice Labs**
+- [**Free Learning Resources**](resources/free-learning-resources) - Links to free courses, tools, and practice platforms
+- [**Setup Guides**](resources/setup-guides) - Step-by-step installation guides for free tools
+
 ### 📝 Study Blog Posts
 - [Week 1: Mastering CVSS 3.1](blog-posts/week1-cvss-mastery)
 - [Week 2: Tool Comparison Analysis](blog-posts/week2-tool-comparison)
@@ -29,7 +33,7 @@ This website contains a detailed 4-week preparation plan for cybersecurity vulne
 ## 📊 Preparation Timeline
 
 | Week | Focus Area | Key Deliverables | Blog Post |
-|------|------------|------------------|------------|
+|------|------------|------------------|-----------|
 | 1 | CVSS mastery, tool familiarization | Tool comparison matrix, CVSS reference guide | [CVSS Deep Dive](blog-posts/week1-cvss-mastery) |
 | 2 | Hands-on practice, advanced features | Lab reports, automation examples | [Tool Comparison](blog-posts/week2-tool-comparison) |
 | 3 | Soft skills, process improvement | Executive presentations, innovation portfolio | [Executive Communication](blog-posts/week3-executive-communication) |
@@ -63,13 +67,29 @@ This website contains a detailed 4-week preparation plan for cybersecurity vulne
 - Portfolio demonstrating expertise
 - Questions prepared for interviewer
 
+## 🆓 **Start Here: Free Practice Setup**
+
+### Essential Free Tools (Quick Start)
+1. **[Nessus Essentials](https://www.tenable.com/products/nessus/nessus-essentials)** - Free for up to 16 IPs
+2. **[DVWA](http://www.dvwa.co.uk/)** - Vulnerable web app for practice
+3. **[CVSS Calculator](https://www.first.org/cvss/calculator/3.1)** - Official scoring tool
+4. **[VulnHub VMs](https://www.vulnhub.com/)** - Free vulnerable machines
+5. **[Tenable.io Trial](https://www.tenable.com/products/tenable-io/evaluate)** - 30-day full trial
+
+### Practice Environment Setup
+- **Step 1:** [Follow Setup Guides](resources/setup-guides)
+- **Step 2:** Install Nessus Essentials + DVWA
+- **Step 3:** Practice CVSS scoring with real CVEs
+- **Step 4:** Scan vulnerable targets and analyze results
+
 ## 📖 How to Use This Site
 
 1. **Start with [Resume Analysis](docs/01-resume-analysis)** to understand your strengths and gaps
-2. **Follow the [4-Week Study Plan](docs/02-study-plan-weeks-1-2)** systematically
-3. **Read and write [Blog Posts](blog-posts/week1-cvss-mastery)** to document your learning
-4. **Practice with [Interview Questions](docs/04-interview-questions-resources)**
-5. **Use [Detailed Answers](docs/05-detailed-interview-answers)** for mock interviews
+2. **Setup [Free Practice Environment](resources/setup-guides)** for hands-on learning
+3. **Follow the [4-Week Study Plan](docs/02-study-plan-weeks-1-2)** systematically
+4. **Read and write [Blog Posts](blog-posts/week1-cvss-mastery)** to document your learning
+5. **Practice with [Interview Questions](docs/04-interview-questions-resources)**
+6. **Use [Detailed Answers](docs/05-detailed-interview-answers)** for mock interviews
 
 ## 📞 Contact
 
